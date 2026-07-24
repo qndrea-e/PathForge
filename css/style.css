@@ -586,3 +586,22 @@ opacity:0;
 }
 
 }
+
+/*=======================
+         IMAGE
+=======================*/
+
+.image-placeholder{
+    max-width:900px;
+    margin:40px auto;
+    border-radius:20px;
+    overflow:hidden;
+    border:3px solid #d4af37;
+    box-shadow:0 0 25px rgba(212,175,55,.25);
+}
+
+.image-placeholder img{
+    width:100%;
+    height:auto;
+    display:block;
+}
