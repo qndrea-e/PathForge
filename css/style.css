@@ -605,3 +605,27 @@ opacity:0;
     height:auto;
     display:block;
 }
+
+/*=======================
+         CARD
+=======================*/
+
+.card-image{
+    width:220px;
+    height:320px;
+    margin:20px auto;
+    border:3px solid #d4af37;
+    border-radius:18px;
+    overflow:hidden;
+    background:#1b2430;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card-image img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    display:block;
+}
